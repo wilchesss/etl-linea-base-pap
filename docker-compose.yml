@@ -1,0 +1,5 @@
+services:
+  etl:
+    build: .
+    volumes:
+      - ./data:/app/data
